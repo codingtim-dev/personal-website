@@ -5,9 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timothy Brandt | Personal Website</title>
-    <link rel="stylesheet" href="resources/style.css/">
+    <link rel="stylesheet" href="resources/style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    
+    <header>
+        <nav id="desktop">
+            <div id="logo">
+                <a>Timothy Brandt</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="#photography">Photography</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="banner">
+            <h1>Hey there! I am&nbsp; <span class="typewriter thick"></span></h1>
+            <h3><span class="typewriterWelcome thick"></span></h3>
+            <div id="icon"><a href="#projects"><span class="material-symbols-outlined">
+                expand_more
+                </span></a>
+                
+            </div>
+            
+        </div>
+        <section id="projects">
+            <p class="headline">Projects</p>
+            <div id="cards">
+                <div id="card" class="card">
+                    <div class="image-container">
+                        <img src="resources/images/old_website.PNG" alt="">
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, harum, quis hic, repellat reprehenderit eveniet modi id praesentium dolorem earum qui. Quos ea aspernatur, quo earum mollitia iste recusandae debitis?</p>
+                    <a href="">Read more</a>
+                </div>
+                <div id="card" class="card">
+                    <div class="image-container">
+                        <img src="resources/images/mohammad-rahmani-8qEB0fTe9Vw-unsplash (1).jpg" alt="">
+                    </div>
+                    <h3>Python Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, harum, quis hic, repellat reprehenderit eveniet modi id praesentium dolorem earum qui. Quos ea aspernatur, quo earum mollitia iste recusandae debitis?</p>
+                    <a href="">Read more</a>
+                </div>
+                <div id="card" class="card">
+                    <div class="image-container">
+                        <img src="resources/images/Desert.png" alt="">
+                    </div>
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, harum, quis hic, repellat reprehenderit eveniet modi id praesentium dolorem earum qui. Quos ea aspernatur, quo earum mollitia iste recusandae debitis?</p>
+                    <a href="">Read more</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="photography">
+            <p><span class="" id="photography-text"></span></p>
+            <div class="image-portfolio">
+                
+                    <div class="image-container">
+                        <img src="resources/images/timothy-brandt-179G1e8NEno-unsplash (1) (1).jpg" alt="">
+                    </div>
+                    <div class="image-container">
+                        <img src="resources/images/timothy-brandt-FW3wBBQx8MI-unsplash (1).jpg" alt="">
+                    </div>
+                    <div class="image-container">
+                        <img src="resources/images/timothy-brandt-XwxOKLwIPbc-unsplash (1).jpg" alt="">
+                    </div>
+                    <div class="image-container smartphone">
+                        <img src="resources/images/timothy-brandt-YzoBeUmKark-unsplash (1).jpg" alt="">
+                    </div>
+
+            </div>
+
+            
+
+        </section>
+        <section id="photography2">
+           
+                <div class="image-container">
+                    
+                    <img src="resources/images/timothy-brandt-lHncCmc5BE4-unsplash (1).jpg" alt="">
+                    <div class="" id="unreveal-block"></div>
+                </div>
+                <div class="information">
+                    <h1>Take a look through another lense</h1>
+                    <p>Since I became my first camera from the bran Nikon, I finally found a passion through my latest years </p>
+                    <p>Nowadays I shoot with my Sony a6000 and specialised myself on street photography</p>
+                    <p>Walking through the suburbs and cities is a quite enjoyable feature of it and a lot of new friends I have met since I began with photography</p>
+                    <p>If you want to see more of my pictures I have taken, see below</p>
+                    <a href="https://unsplash.com/@timothybrandt" target="_blank">See more.</a>
+                </div>
+            
+
+        </section>
+        
+    </main>
+    <footer>
+        <p>© Timothy Brandt All rights reserved</p>
+
+        <ul>
+            <li><a href="https://unsplash.com/@timothybrandt" target="_blank">Unplash</a></li>
+            <li><a href="https://github.com/codingtim-dev" target="_blank">Github</a></li>
+            <li><a href="https://de.linkedin.com/in/timothy-brandt-4a760b215" target="_blank">LinkedIn</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+    <script src="scroll.js"></script>
+    <script src="fetchImages.js"></script>
 </body>
 </html>

@@ -1,0 +1,162 @@
+
+
+
+  @media only screen and (max-width: 1300px){
+
+
+    #photography p{
+        font-size: 8rem;
+    }
+
+
+    #photography2{
+        height: 100%;
+        padding: 10% 2%;
+    }
+
+    #projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    #photography2 .image-container{
+        width: 50%;
+        overflow: hidden;
+      }
+
+      #photography2 .information{
+        text-align: right;
+        width: 50%;
+        padding: 50px  ;
+      }
+
+      #projects #cards{
+        overflow-x: scroll;
+        scroll-behavior: auto;
+        
+       
+      }
+
+      ::-webkit-scrollbar-thumb{
+        background: red;
+      }
+
+      /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #00000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(240, 240, 240);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 1);
+  }
+  }
+
+  @media only screen and (max-width: 760px){
+    #projects #cards, #photography2{
+        flex-direction: column;
+        height: auto;
+       
+      }
+
+    #projects #cards{
+        overflow-x: hidden !important;
+    }
+
+    #projects{
+        height: auto;
+        
+    }
+
+    #photography p{
+        font-size: 6rem !important;
+    }
+
+    #photography2 .information{
+        width: 100%;
+    }
+
+    #photography2 .image-container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    footer p{
+        display: none;
+    }
+
+    footer ul{
+        width: 100%;
+        gap: 0;
+        justify-content: space-between;
+    }
+  }
+
+
+  @media only screen and (max-width: 590px){
+    #logo{
+      display: none;
+    }
+  
+    nav ul{
+      width: 100%;
+      gap: 0;
+      justify-content: space-between;
+    }
+
+    #projects{
+        padding: 24px 15px;
+        height: auto;
+    }
+  
+    #projects #cards{
+      flex-direction: column;
+      
+      
+    }
+
+    #banner h1{
+        font-size: 1.4rem;
+    }
+
+    #cards{
+        width: 100%;
+       
+    }
+
+    #card{
+        padding: 20px 15px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #photography p span{
+        font-size: 3rem;
+    }
+
+    .image-portfolio{
+     
+        flex-wrap: wrap;
+    
+    }
+
+    #photography .image-container{
+        width: 50%;
+    }
+
+   
+
+  }
