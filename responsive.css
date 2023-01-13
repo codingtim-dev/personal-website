@@ -38,29 +38,7 @@
        
       }
 
-      ::-webkit-scrollbar-thumb{
-        background: red;
-      }
-
-      /* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #00000000;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(240, 240, 240);
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 1);
-  }
+      
   }
 
   @media only screen and (max-width: 760px){
